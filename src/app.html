@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="%sveltekit.assets%/favicon.png" />
+		<link href="/material-symbols.css" rel="stylesheet" />
+		<style>
+			@font-face {
+				font-family: 'Inter';
+				src: url('/Inter.ttf') format('truetype');
+			}
+		</style>
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		%sveltekit.head%
+	</head>
+	<body data-sveltekit-preload-data="hover">
+		<div style="display: contents">%sveltekit.body%</div>
+	</body>
+
+	<style>
+		* {
+			margin: 0;
+			padding: 0;
+			font-family: 'Inter', sans-serif;
+		}
+
+		:root {
+			--text: #e5f5eb;
+			--sec-text: #909d95;
+			--background: #04090c;
+			--header-bg: #2a56926e;
+			--secondary-action: #1d2c30;
+			--primary: #084a61;
+			--secondary: #2b5152;
+			--accent: #4ed6f1;
+			--accent-shadow: #7aa0d142;
+			--default-spacing: 12px;
+			--element-spacing: 6px;
+			--section-spacing: 24px;
+
+			/* Font sizes */
+			--action-text: 24px;
+			--large-font: 20px;
+			--medium-font: 16px;
+			--small-font: 12px;
+		}
+
+		body {
+			scroll-behavior: smooth;
+		}
+
+		.action-button {
+			background-color: var(--primary);
+			color: var(--text);
+			border: none;
+			border-radius: var(--default-spacing);
+			padding: var(--default-spacing) var(--section-spacing);
+			font-size: var(--action-text);
+			cursor: pointer;
+			box-shadow: 0px 0px 30px 0px var(--accent-shadow);
+			transition: transform 0.2s ease-in-out;
+		}
+
+		.secondary-action-button {
+			background-color: var(--secondary-action);
+			color: var(--text);
+			border: none;
+			border-radius: var(--default-spacing);
+			padding: var(--default-spacing) var(--section-spacing);
+			font-size: var(--action-text);
+			cursor: pointer;
+			box-shadow: 0px 0px 30px 0px var(--accent-shadow);
+			transition: transform 0.2s ease-in-out;
+		}
+
+		.action-button:hover {
+			transform: translate(0, -5px);
+		}
+
+		.secondary-action-button:hover {
+			transform: translate(0, -5px);
+		}
+
+		.readable {
+			line-height: 1.5;
+		}
+
+		.appear {
+			transform: scale(1) translateY(0) translateX(0) !important;
+			opacity: 1;
+		}
+
+		body {
+			background-color: var(--background);
+			font-family: 'Roboto', sans-serif;
+		}
+	</style>
+</html>
