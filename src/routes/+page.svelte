@@ -26,7 +26,7 @@
     <p>It's time to <span class="colored">supercharge</span> your <span class="colored">message</span> app.</p>
 </div>
 <div class="description">
-    <p class="readable">With Liphium I tried to create the a secure and safe place for me and my friends. If you like the approach we're taking be sure to join the alpha!</p>
+    <p class="readable">With Liphium I tried to create a secure and safe place for me and my friends. If you like the approach we're taking be sure to join the alpha!</p>
 </div>
 <div class="spacer"></div>
 <div class="description">
