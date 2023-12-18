@@ -36,7 +36,7 @@
 
 <div class="spacer-big"></div>
 
-<div class="center-maxwidth">
+<div class="center-maxwidth features">
 
     <div class="row aos">
         <div class="desc">
@@ -51,7 +51,7 @@
         </div>
     </div>
 
-    <div class="spacer-medium"></div>
+    <div class="spacer-gap"></div>
 
     <div class="row aos">
         <div class="desc aos">
@@ -66,7 +66,7 @@
         </div>
     </div>
 
-    <div class="spacer-medium"></div>
+    <div class="spacer-gap"></div>
 
     <div class="row aos">
         <div class="desc aos">
@@ -184,19 +184,19 @@
         justify-content: center;
         background: radial-gradient(circle at center, var(--header-bg) 0%, var(--background) 100px), var(--background);
         padding: calc(var(--section-spacing) * 4) 0;
-        height: 15vh;
+        height: 16vh;
     }
 
     .spacer {
-        height: var(--section-spacing);
+        height: 4vh;
     }
 
     .spacer-medium {
-        height: calc(var(--section-spacing) * 4);
+        height: 8vh;
     }
 
     .spacer-big {
-        height: calc(var(--section-spacing) * 12);
+        height: 30vh;
     }
 
     .logo {
@@ -216,6 +216,98 @@
         p {
             max-width: 500px;
             font-size: var(--large-font);
+        }
+    }
+
+    .features {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 4vh;
+    }
+
+    @media screen and (max-height: 700px) {
+        .spacer-top {
+            height: 1vh;
+        }
+    }
+
+    @media screen and (max-width: 1100px) {
+        .row {
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            gap: 10%;
+            width: 100%;
+
+            .desc {
+                width: 40%;
+            }
+        }
+    }
+
+    @media screen and (max-width: 800px) {
+
+        .features {
+            gap: 2rem;
+        }
+
+        .row {
+            align-items: center;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+            gap: 4rem;
+            width: 100%;
+
+            .desc {
+                width: 90%;
+            }
+        }
+
+        .gradient p {
+            width: 90%;
+        }
+
+        .spacer-top {
+            height: 4rem;
+        }
+    }
+
+    @media screen and (max-width: 650px) {
+        .gradient {
+            font-size: 40px;
+        }
+
+        .header {
+            font-size: 40px;
+        }
+
+        .header-small {
+            font-size: 20px;
+        }
+
+        .description p {
+            width: 90%;
+        }
+    }
+
+    @media screen and (max-width: 400px) {
+        .gradient {
+            padding: 0 0 2rem 0;
+            font-size: 40px;
+        }
+
+        .header {
+            font-size: 40px;
+        }
+
+        .header-small {
+            font-size: 20px;
+        }
+
+        .description p {
+            width: 90%;
         }
     }
 
