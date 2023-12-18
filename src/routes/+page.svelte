@@ -54,12 +54,12 @@
     <div class="spacer-gap"></div>
 
     <div class="row aos">
-        <div class="desc aos">
+        <div class="desc">
             <span class="material-symbols">lock</span>
             <p>Privacy by default</p>
             <p class="secondary">Everything you share on the app is 100% end-to-end encrypted so not even we can see what you are doing with your friends.</p>
         </div>
-        <div class="desc aos">
+        <div class="desc">
             <span class="material-symbols">sell</span>
             <p>Servers are expensive</p>
             <p class="secondary">A free app just doesn't pay for the server infrastructure needed for our app. That's why there will be a price tag on some features, but that doesn't mean it'll be expensive.</p>
@@ -69,12 +69,12 @@
     <div class="spacer-gap"></div>
 
     <div class="row aos">
-        <div class="desc aos">
+        <div class="desc">
             <span class="material-symbols">equalizer</span>
             <p>High quality voice calls</p>
             <p class="secondary">Get secure voice chat that is made for the modern area of voice calls. You shouldn't have to hear someone while they're not talking.</p>
         </div>
-        <div class="desc aos">
+        <div class="desc">
             <span class="material-symbols">content_copy</span>
             <p>Share (large) files quicker</p>
             <p class="secondary">With Live Share you can instantly share files of any size without someone else having to wait for a message. Of course they have to accept first.</p>
@@ -304,6 +304,10 @@
 
         .header-small {
             font-size: 20px;
+        }
+
+        .spacer-top {
+            height: 1rem;
         }
 
         .description p {
