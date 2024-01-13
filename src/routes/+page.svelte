@@ -34,7 +34,7 @@
 
 		<div class="description">
 			<p class="readable">
-				With Liphium I created a secure and safe place for you and your friends, if you believe in
+				With Liphium we created a secure and safe place for you and your friends, if you believe in
 				this vision, be sure to join us on our journey.
 			</p>
 		</div>
@@ -111,10 +111,6 @@
 
 <div class="spacer-big"></div>
 
-<p class="header-small aos"></p>
-<p class="header aos">Join the alpha</p>
-<div class="spacer-big"></div>
-
 <style lang="scss">
 	.main {
 		display: flex;
@@ -132,9 +128,28 @@
 		}
 	}
 
+	.footer {
+		color: var(--sec-text);
+		display: flex;
+		justify-content: center;
+		gap: var(--section-spacing);
+		flex-direction: row;
+
+		a {
+			color: var(--accent);
+			text-decoration: none;
+
+			&:hover {
+				text-decoration: underline;
+			}
+		}
+	}
+
 	.leave-alone {
 		display: flex;
+		justify-content: center;
 		align-items: center;
+		width: 500px;
 	}
 
 	.headline {
@@ -202,33 +217,12 @@
 		}
 	}
 
-	.spacer-top {
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		background: radial-gradient(circle at center, var(--header-bg) 0%, var(--background) 100px),
-			var(--background);
-		padding: calc(var(--section-spacing) * 4) 0;
-		height: 16vh;
-	}
-
 	.spacer {
 		height: 4vh;
 	}
 
-	.spacer-medium {
-		height: 8vh;
-	}
-
 	.spacer-big {
 		height: 30vh;
-	}
-
-	.logo {
-		min-width: 70px;
-		width: 5%;
-		margin-right: 1rem;
-		color: var(--background);
 	}
 
 	.description {
@@ -249,12 +243,6 @@
 		gap: 4vh;
 	}
 
-	@media screen and (max-height: 700px) {
-		.spacer-top {
-			height: 1vh;
-		}
-	}
-
 	@media screen and (max-width: 1100px) {
 		.row {
 			align-items: center;
@@ -265,6 +253,21 @@
 
 			.desc {
 				width: 40%;
+			}
+		}
+		.main {
+			flex-direction: column;
+
+			.leave-alone {
+				transform: scale(0.8);
+			}
+
+			.text {
+				text-align: center;
+
+				.description {
+					justify-content: center;
+				}
 			}
 		}
 	}
@@ -286,14 +289,6 @@
 				width: 90%;
 			}
 		}
-
-		.gradient p {
-			width: 90%;
-		}
-
-		.spacer-top {
-			height: 4rem;
-		}
 	}
 
 	@media screen and (max-width: 650px) {
@@ -307,6 +302,11 @@
 
 		.header-small {
 			font-size: 20px;
+		}
+
+		.main .leave-alone {
+			transform: scale(0.6);
+			height: 100px;
 		}
 
 		.description p {
@@ -330,6 +330,11 @@
 
 		.spacer-top {
 			height: 1rem;
+		}
+
+		.main .leave-alone {
+			transform: scale(0.4);
+			height: 100px;
 		}
 
 		.description p {
