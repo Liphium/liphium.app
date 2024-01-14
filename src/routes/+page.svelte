@@ -2,6 +2,8 @@
 	import { onMount } from 'svelte';
 	import Logo from './logo.svelte';
 
+	export const prerender = true;
+
 	onMount(() => {
 		const observer = new IntersectionObserver((entries) => {
 			entries.forEach((entry) => {
@@ -118,7 +120,7 @@
 		flex-direction: row;
 		justify-content: space-evenly;
 		height: 100vh;
-		width: 100vw;
+		width: 100%;
 
 		.text {
 			text-align: left;
