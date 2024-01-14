@@ -1,7 +1,3 @@
-<script lang="ts">
-	export const prerender = true;
-</script>
-
 <div class="center">
 	<div class="policy">
 		<h1>Liphium Privacy Policy</h1>

@@ -2,8 +2,6 @@
 	import { onMount } from 'svelte';
 	import Logo from './logo.svelte';
 
-	export const prerender = true;
-
 	onMount(() => {
 		const observer = new IntersectionObserver((entries) => {
 			entries.forEach((entry) => {
