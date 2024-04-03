@@ -29,13 +29,13 @@
 	</div>
 
 	<div class="text">
-		<p class="headline">Rethinking chatting</p>
+		<p class="headline">An app that's fun again</p>
 		<div class="spacer"></div>
 
 		<div class="description">
 			<p class="readable">
-				With Liphium we created a secure and safe place for you and your friends, if you believe in
-				this vision, be sure to join us on our journey.
+				I could say I'm transforming chat apps and stuff, but we mostly just add really cool stuff
+				no-one else thinks off.
 			</p>
 		</div>
 		<div class="spacer"></div>
@@ -50,18 +50,19 @@
 	<div class="row aos">
 		<div class="desc">
 			<span class="material-symbols">public</span>
-			<p>Find new ways to interact with your friends</p>
+			<p>We have a way to fix climate change</p>
 			<p class="secondary">
-				Get your entire friends group together with next level features for sharing your calls
-				(Spaces).
+				If you don't buy a table anymore and just use Liphium's Tabletop Simulator, you could save a
+				couple of trees from being cut. That will reduce the carbon footprint (based on an internal
+				trust me bro analysis). We'll be adding food very soon, trust us!
 			</p>
 		</div>
 		<div class="desc left">
 			<span class="material-symbols">select_check_box</span>
-			<p>No setup needed</p>
+			<p>No setup needed, just different kinds of setup</p>
 			<p class="secondary">
-				Liphium has all the features you need to interact with your friends group, no matter how
-				big. And it all works out of the box.
+				Seriously, just add your friends, create a couple of group chats and our app will take care
+				of everything else. No more setting up stupid permissions.
 			</p>
 		</div>
 	</div>
@@ -71,18 +72,20 @@
 	<div class="row aos">
 		<div class="desc">
 			<span class="material-symbols">lock</span>
-			<p>Privacy by default</p>
+			<p>We have crypto</p>
 			<p class="secondary">
-				Everything you share on the app is 100% end-to-end encrypted so not even we can see what you
-				are doing with your friends.
+				We don't have NFTs and all of the other "great" Web 3 stuff, but 100% end-to-end encryption
+				on almost everything should be a great fit as well. You know it's the technology powering
+				all of this stuff, so it's basically Web 3.
 			</p>
 		</div>
 		<div class="desc">
 			<span class="material-symbols">sell</span>
 			<p>Servers are expensive</p>
 			<p class="secondary">
-				A free app just doesn't pay for the server infrastructure needed for our app. That's why
-				there will be a price tag on some features, but that doesn't mean it'll be expensive.
+				We give this "amazing" piece of software to you for free, so you also have to pay for the
+				servers yourself. Yes this is a crazy feature and it's totally not because I have no
+				business experience.
 			</p>
 		</div>
 	</div>
@@ -92,18 +95,20 @@
 	<div class="row aos">
 		<div class="desc">
 			<span class="material-symbols">equalizer</span>
-			<p>High quality voice calls</p>
+			<p>High quality Spaces (that's basically calls)</p>
 			<p class="secondary">
-				Get secure voice chat that is made for the modern area of voice calls. You shouldn't have to
-				hear someone while they're not talking.
+				Secure voice and video calls are also integrated, you can even set stuff like microphone
+				sensitivity or have an AI detect when you're talking. It's pretty great, but Average
+				Intelligence often fails you.
 			</p>
 		</div>
 		<div class="desc">
 			<span class="material-symbols">content_copy</span>
-			<p>Share (large) files quicker</p>
+			<p>Never worry about that silly big file again</p>
 			<p class="secondary">
-				With Live Share you can instantly share files of any size without someone else having to
-				wait for a message. Of course they have to accept first.
+				With Live Share (not the one from Microsoft) you can share files up to any size with your
+				friends. I know what you plan on using it for (it starts with "p"), but please don't tell
+				your lawyers.
 			</p>
 		</div>
 	</div>
@@ -208,6 +213,7 @@
 			gap: var(--section-spacing);
 			font-size: 30px;
 			color: var(--text);
+			line-height: 1.5;
 
 			.secondary {
 				color: var(--sec-text);
