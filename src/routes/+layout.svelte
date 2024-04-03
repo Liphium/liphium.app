@@ -5,8 +5,7 @@
 <div class="footer">
 	<p>Copyright © 2024 Liphium</p>
 	<a href="/">Home</a>
-	<a href="/terms">Terms of Service</a>
-	<a href="/privacy">Privacy</a>
+	<a href="/legal">Privacy & terms</a>
 	<a href="https://youtube.com/@unbreathable" target="_blank">Devlog Series</a>
 </div>
 
