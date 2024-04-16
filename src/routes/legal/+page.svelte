@@ -2,7 +2,7 @@
 	<div class="policy">
 		<h1>Liphium's Privacy Policy & Terms of Service</h1>
 		<p>
-			<strong>Effective: 03.04.2024, last updated: 03.04.2024</strong> <br />
+			<strong>Effective: 16.04.2024, last updated: 16.04.2024</strong> <br />
 			Your privacy and security matters to us, which is why we collect only minimal amounts of information
 			that are needed to enhance user experience and help us better understand how Liphium is used within
 			our network of self-hosted servers anyone can host. If you've got any further questions, just go
@@ -35,11 +35,21 @@
 			</li>
 		</ul>
 
+		<h2>When this changes</h2>
+		<p>
+			We may change our Privacy Policy or Terms of Service at any time. Agreeing to this document
+			means you agree to all future versions of this document. We will notify you about any changes
+			we make to this document and state when it was updated and when it will become effective. The
+			notifications will reach you through our app, but if it doesn't notify you, well that's your
+			thing. Let your friends tell you or something because this document is REALLY important and
+			any updates we make are gonna make you worry REAL hard because you have of course read through
+			this document multiple times to understand how we use your data.
+		</p>
+
 		<h2>Consent</h2>
 		<p>
 			By using any of our Services as well as this website you agree to this Privacy Policy and our
-			Terms of Service. And if you say you didn't read this, it doesn't count, because we say it
-			right here now. What are you gonna do now?
+			Terms of Service. I feel like that's kinda obvious, but we need to state it here, you know.
 		</p>
 
 		<h1>Terms of Service</h1>
