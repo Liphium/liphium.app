@@ -41,7 +41,7 @@
 		<div class="spacer"></div>
 		<div class="description">
 			<button class="secondary-action-button">Features</button>
-			<button class="action-button">Join alpha</button>
+			<button class="action-button">Download</button>
 		</div>
 	</div>
 </div>
@@ -98,8 +98,8 @@
 			<p>High quality Spaces (that's basically calls)</p>
 			<p class="secondary">
 				Secure voice and video calls are also integrated, you can even set stuff like microphone
-				sensitivity or have an AI detect when you're talking. It's pretty great, but Average
-				Intelligence often fails you.
+				sensitivity. We have lots of stupid features in Spaces and I'm sure you would enjoy them,
+				but that's your thing.
 			</p>
 		</div>
 		<div class="desc">
@@ -109,6 +109,30 @@
 				With Live Share (not the one from Microsoft) you can share files up to any size with your
 				friends. I know what you plan on using it for (it starts with "p"), but please don't tell
 				your lawyers.
+			</p>
+		</div>
+	</div>
+
+	<div class="spacer-gap"></div>
+
+	<div class="row aos">
+		<div class="desc">
+			<span class="material-symbols">folder</span>
+			<p>Save all your favorite memes to one place</p>
+			<p class="secondary">
+				Most apps have stuff like stickers and GIFs and all kinds of other types of images and
+				animated images you can spam people with. But when you just want to create your own it's
+				often very difficult and limiting, which is why Liphium allows saving every image and GIF to
+				your Library.
+			</p>
+		</div>
+		<div class="desc">
+			<span class="material-symbols">military_tech</span>
+			<p>Show your friends what you're up to</p>
+			<p class="secondary">
+				We just want you to know that we have a status system. Meaning you can customize if you are
+				online, away, busy or even offline. You can set a custom message too, if you wish to do
+				that. Lots of apps are missing this functionality, but I think it's kind of important.
 			</p>
 		</div>
 	</div>
@@ -133,23 +157,6 @@
 		}
 	}
 
-	.footer {
-		color: var(--sec-text);
-		display: flex;
-		justify-content: center;
-		gap: var(--section-spacing);
-		flex-direction: row;
-
-		a {
-			color: var(--accent);
-			text-decoration: none;
-
-			&:hover {
-				text-decoration: underline;
-			}
-		}
-	}
-
 	.leave-alone {
 		display: flex;
 		justify-content: center;
@@ -161,22 +168,6 @@
 		font-size: 50px;
 		color: var(--text);
 		transition: transform 0.5s ease;
-	}
-
-	.header {
-		font-size: 50px;
-		color: var(--text);
-		text-align: center;
-		transition: transform 0.5s ease;
-		transform: translateY(200px);
-	}
-
-	.header-small {
-		font-size: 30px;
-		color: var(--sec-text);
-		text-align: center;
-		transition: transform 0.5s ease;
-		transform: translateY(200px);
 	}
 
 	.center-maxwidth {
@@ -298,18 +289,6 @@
 	}
 
 	@media screen and (max-width: 650px) {
-		.gradient {
-			font-size: 40px;
-		}
-
-		.header {
-			font-size: 40px;
-		}
-
-		.header-small {
-			font-size: 20px;
-		}
-
 		.main .leave-alone {
 			transform: scale(0.6);
 			height: 100px;
@@ -321,23 +300,6 @@
 	}
 
 	@media screen and (max-width: 400px) {
-		.gradient {
-			padding: 0 0 2rem 0;
-			font-size: 40px;
-		}
-
-		.header {
-			font-size: 40px;
-		}
-
-		.header-small {
-			font-size: 20px;
-		}
-
-		.spacer-top {
-			height: 1rem;
-		}
-
 		.main .leave-alone {
 			transform: scale(0.4);
 			height: 100px;

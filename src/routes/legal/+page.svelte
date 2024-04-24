@@ -2,7 +2,7 @@
 	<div class="policy">
 		<h1>Liphium's Privacy Policy & Terms of Service</h1>
 		<p>
-			<strong>Effective: 16.04.2024, last updated: 16.04.2024</strong> <br />
+			<strong>Effective: 24.04.2024, last updated: 24.04.2024</strong> <br />
 			Your privacy and security matters to us, which is why we collect only minimal amounts of information
 			that are needed to enhance user experience and help us better understand how Liphium is used within
 			our network of self-hosted servers anyone can host. If you've got any further questions, just go
@@ -94,7 +94,9 @@
 				and make the app better for everyone. We will never collect any information without your
 				consent. The Liphium app may also make requests to
 				<a href="https://github.com">GitHub</a> to check for updates and may also download the latest
-				release from there. Their privacy policy safeguards this usage.
+				release from there. Their privacy policy safeguards this usage. We also make regular requests
+				to this page you are on right now or our Services to check if you have accepted our agreements
+				(like the Terms of Service and the Privacy Policy) or if there are some news you might've missed.
 			</li>
 			<li>
 				<strong>On liphium.com and other websites we own.</strong> This encompasses the entirety of
